@@ -24,7 +24,7 @@ button.onclick = () => {
     
     if ((row + column) % 2 == 1) {
       
-      result.innerText = `${input.value} : Dark Square`;
+      result.innerText = `${input.value} : dark Square`;
       
       color.style.backgroundColor = "black";
       
