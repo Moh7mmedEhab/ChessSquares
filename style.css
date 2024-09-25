@@ -1,0 +1,101 @@
+::selection {
+  
+  color: #007b09;
+  
+  background-color: transparent;
+  
+}
+
+body {
+  
+  font-family: Comic Sans MS;
+  
+  background-color: #FFFFF9;
+  
+  display: flex;
+  
+  justify-content: center;
+  
+  align-items: center;
+  
+  height: 100vh;
+  
+}
+
+.container {
+  
+  text-align: center;
+  
+  border-radius: 20px;
+  
+  background-color: white;
+  
+  padding: 35px;
+  
+  box-shadow: 0 0 10px #000005;
+  
+}
+
+#square {
+  
+  color: #000009;
+  
+  border: 2px solid #CCC;
+  
+  padding: 10px;
+  
+  border-radius: 10px;
+  
+}
+
+#square::placeholder {
+  
+  color: #007b90;
+  
+}
+
+#check {
+  
+  color: white;
+  
+  background-color: #007bff;
+  
+  padding: 12px 25px;
+  
+  border-radius: 10px;
+  
+  border: none;
+  
+  transition-duration: 0.25s;
+  
+  cursor: pointer;
+  
+}
+
+#check:hover {
+  
+  background-color: #007bc4;
+  
+}
+
+#color {
+  
+  width: 20px;
+  
+  height: 20px;
+  
+  border-radius: 10px;
+  
+  margin: 10px;
+
+}
+
+#res {
+  
+  display: flex;
+  
+  align-items: center;
+  
+  justify-content: center;
+  
+}
